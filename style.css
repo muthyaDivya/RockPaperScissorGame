@@ -1,0 +1,67 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+h1{
+    color: rgb(241, 241, 251);
+    text-align: center;
+    background-color: rgb(87, 87, 96);
+    height: 40px;
+}
+h3{
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    background-color: cadetblue;
+    color: rgb(251, 253, 255);
+}
+
+#userChoice{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#optionsDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#userInputSubmission{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+#options{
+    width: 80px;
+    height: 30px;
+}
+#computerChoice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+#theOutcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+
