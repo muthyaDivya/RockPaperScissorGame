@@ -57,9 +57,9 @@ function handleChoice(userChoice) {
 }
 
 // Add event listeners for the buttons
-rockButton.addEventListener("click", () => handleChoice("rock"));
-paperButton.addEventListener("click", () => handleChoice("paper"));
-scissorsButton.addEventListener("click", () => handleChoice("scissors"));
+rockButton.addEventListener("click", () => handleChoice("Rock"));
+paperButton.addEventListener("click", () => handleChoice("Paper"));
+scissorsButton.addEventListener("click", () => handleChoice("Scissors"));
 
 btnReset.addEventListener('click', () =>{
     myScore = 0;
@@ -70,62 +70,6 @@ btnReset.addEventListener('click', () =>{
     yourScore.textContent = '';
     computerScore.textContent = '';
   });
-
-
-
-// let userChoice;
-// let result;
-// let yourScore = 0;
-// let computerScore = 0;
-// const eachGoResult = document.getElementById("eachGoResult");
-
-
-// //! User choice logic
-// document.getElementById('options').addEventListener('change', function() {
-//     userChoice = this.options[this.selectedIndex].text;  // Get the selected option's text
-//     return userChoice;
-// });
-
-// setTimeout(() => {
-//     // Get the computer's choice
-//     const computerChoice = getComputerChoice();
-// document.getElementById("displayCompChoice").textContent = computerChoice;
-//     const result = determineResult(userChoice, computerChoice);
-//   }, 2500);
-// //! Computer generated choice logic
-// function getComputerChoice() {
-//     const computerOptions = ["Rock", "Paper", "Scissor"];
-//     const randomIndex = Math.floor(Math.random() * computerOptions.length);
-//     return computerOptions[randomIndex];
-    
-//     }
-
-
-
-// function determineResult(userChoice, computerChoice ){
-//     if((userChoice === computerChoice)){
-//         eachGoResult.textContent = "It's a tie";
-//         document.getElementById("yourScore").textContent = "Your Score:" + yourScore;
-//         document.getElementById("computerScore").textContent = "Computer Score:" + computerScore;
-//     }
-    
-//     else if(((userChoice==="Rock")&&(computerChoice==="Scissor"))||
-//     ((userChoice==="Scissor")&&(computerChoice==="Paper"))||
-//     ((userChoice==="Paper")&&(computerChoice==="Rock"))){
-//         yourScore++;
-//         eachGoResult.textContent = "In this round You Won!!";
-//         document.getElementById("yourScore").textContent = "Your Score:" + yourScore;
-//         document.getElementById("computerScore").textContent = "Computer Score:" + computerScore;
-//     }
-    
-//     else {
-//         computerScore++;
-//         eachGoResult.textContent = "In this round Computer Won!!";
-//         document.getElementById("yourScore").textContent = "Your Score:" + yourScore;
-//         document.getElementById("computerScore").textContent = "Computer Score:" + computerScore;
-//     }
-
-// }
 
 
 
