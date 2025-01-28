@@ -4,6 +4,16 @@
 body{
     margin: 0;
     background-color: aliceblue;
+    box-sizing: border-box;
+}
+#sect1,#sect2,#sect3{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    width: 500px;
+    justify-self: center;
+    background-color: rgb(251, 248, 248) ;
+    border-radius: 5px;
 }
 h1{
     color: rgb(241, 241, 251);
@@ -17,6 +27,9 @@ h3{
     font-size: 22px;
     background-color: cadetblue;
     color: rgb(251, 253, 255);
+    width: 300px;
+    justify-self: center;
+    border-radius: 5px;
 }
 
 #userChoice{
@@ -33,14 +46,6 @@ h3{
     justify-content: center;
     align-items: center;
     gap: 10px;
-}
-#userInputSubmission{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 20px;
 }
 #options{
     width: 80px;
@@ -63,5 +68,30 @@ h3{
     gap: 10px;
    
 }
+#rock{
+    background-color: azure;
+}
+#rock:hover{
+    background-color: rgb(136, 254, 254);
+}
+#paper{
+    background-color: azure;
+}
+#paper:hover{
+    background-color: rgb(136, 254, 254);
+}
+#scissors{
+    background-color: azure;
+}
+#scissors:hover{
+    background-color: rgb(136, 254, 254);
+}
 
-
+/* #userInputSubmission{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+} */
